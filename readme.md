@@ -82,4 +82,3 @@ Abra `http://localhost:3000` no navegador para visualizar a página.
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
-# citha-landing-page
