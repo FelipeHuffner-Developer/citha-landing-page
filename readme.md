@@ -37,7 +37,7 @@ Para rodar o projeto localmente:
 
 ```bash
 # Clone este repositório
-git clone https://github.com/seu-usuario/citha-landing-page.git
+git clone https://github.com/FelipeHuffner-Developer/citha-landing-page.git
 
 # Acesse a pasta do projeto
 cd citha-landing-page
@@ -82,4 +82,3 @@ Abra `http://localhost:3000` no navegador para visualizar a página.
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT.
-# citha-landing-page
