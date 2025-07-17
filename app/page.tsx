@@ -131,7 +131,7 @@ export default function Home() {
                     </div>
                     <div className="flex items-center space-x-2">
                       <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Inscrições Abertas</span>
+                      <span>Curso em andamento</span>
                     </div>
                     <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
                       Explore o funcionamento das redes neurais e como implementá-las em projetos práticos.
@@ -139,13 +139,8 @@ export default function Home() {
                   </div>
                 </CardContent>
                 <CardFooter className="border-t pt-4">
-                  <Button asChild className="w-full bg-[#1e3a8a] hover:bg-[#1e3a8a]/90">
-                    <Link
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSfIYCNt1K3o2yiaxvw3KjivwxpQACNNzJo0SRwUF_7ze9g_OA/viewform"
-                      target="_blank"
-                    >
-                      Inscreva-se
-                    </Link>
+                  <Button disabled className="w-full bg-gray-400">
+                    Inscrições Encerradas
                   </Button>
                 </CardFooter>
               </Card>
@@ -176,6 +171,126 @@ export default function Home() {
                     </div>
                     <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
                       Aprenda técnicas de processamento de imagens e visão computacional para projetos inovadores.
+                    </p>
+                  </div>
+                </CardContent>
+                <CardFooter className="border-t pt-4">
+                  <Button asChild className="w-full bg-[#1e3a8a] hover:bg-[#1e3a8a]/90">
+                    <Link
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfIYCNt1K3o2yiaxvw3KjivwxpQACNNzJo0SRwUF_7ze9g_OA/viewform"
+                      target="_blank"
+                    >
+                      Inscreva-se
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              {/* Card 4 - Internet das Coisas (IoT) */}
+              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
+                <CardHeader className="bg-[#0ea5e9] text-white rounded-t-lg">
+                  <CardTitle>Internet das Coisas (IoT)</CardTitle>
+                  <CardDescription className="text-gray-100">Conceitos e aplicações práticas</CardDescription>
+                </CardHeader>
+                <CardContent className="pt-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>25/08 a 23/09/2025</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Turma 1: 08:00 às 12:00 hrs</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Turma 2: 18:00 às 22:00 hrs</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Inscrições Abertas</span>
+                    </div>
+                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
+                      Descubra como conectar dispositivos e criar soluções inteligentes com Internet das Coisas.
+                    </p>
+                  </div>
+                </CardContent>
+                <CardFooter className="border-t pt-4">
+                  <Button asChild className="w-full bg-[#1e3a8a] hover:bg-[#1e3a8a]/90">
+                    <Link
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfIYCNt1K3o2yiaxvw3KjivwxpQACNNzJo0SRwUF_7ze9g_OA/viewform"
+                      target="_blank"
+                    >
+                      Inscreva-se
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              {/* Card 5 - Realidade Virtual */}
+              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
+                <CardHeader className="bg-[#a21caf] text-white rounded-t-lg">
+                  <CardTitle>Realidade Virtual</CardTitle>
+                  <CardDescription className="text-gray-100">Imersão e experiências digitais</CardDescription>
+                </CardHeader>
+                <CardContent className="pt-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>29/09 a 24/10/2025</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Turma 1: 08:00 às 12:00 hrs</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Turma 2: 18:00 às 22:00 hrs</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Inscrições Abertas</span>
+                    </div>
+                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
+                      Mergulhe no universo da Realidade Virtual e desenvolva experiências digitais inovadoras.
+                    </p>
+                  </div>
+                </CardContent>
+                <CardFooter className="border-t pt-4">
+                  <Button asChild className="w-full bg-[#1e3a8a] hover:bg-[#1e3a8a]/90">
+                    <Link
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfIYCNt1K3o2yiaxvw3KjivwxpQACNNzJo0SRwUF_7ze9g_OA/viewform"
+                      target="_blank"
+                    >
+                      Inscreva-se
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+              {/* Card 6 - Conectividade e Segurança Cibernética */}
+              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
+                <CardHeader className="bg-[#f59e42] text-white rounded-t-lg">
+                  <CardTitle>Conectividade e Segurança Cibernética</CardTitle>
+                  <CardDescription className="text-gray-100">Proteção e redes digitais</CardDescription>
+                </CardHeader>
+                <CardContent className="pt-6">
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>29/10 a 02/12/2025</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Turma 1: 08:00 às 12:00 hrs</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Turma 2: 18:00 às 22:00 hrs</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
+                      <span>Inscrições Abertas</span>
+                    </div>
+                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
+                      Aprenda sobre redes, conectividade e como proteger sistemas digitais contra ameaças cibernéticas.
                     </p>
                   </div>
                 </CardContent>
