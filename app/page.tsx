@@ -44,10 +44,10 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                Cursos Gratuitos de Inteligência Artificial
+                Capacitação e Interiorização de Tecnologias Habilitadoras na Amazônia
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                Aprenda Aprendizado de Máquina, Redes Neurais e Visão Computacional com o projeto CITHA.
+                Aprenda Tecnologias Habilitadoras com o projeto CITHA.
               </p>
             </div>
             <div>
@@ -73,118 +73,6 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-              {/* Card 1 */}
-              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
-                <CardHeader className="bg-[#22c55e] text-white rounded-t-lg">
-                  <CardTitle>Aprendizado de Máquina</CardTitle>
-                  <CardDescription className="text-gray-100">Fundamentos e aplicações</CardDescription>
-                </CardHeader>
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-2">
-                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>12/05 a 06/06</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 1: 08:00 às 12:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 2: 18:00 às 22:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Curso em Andamento</span>
-                    </div>
-                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
-                      Aprenda os fundamentos do aprendizado de máquina e como aplicá-los em problemas reais.
-                    </p>
-                  </div>
-                </CardContent>
-                <CardFooter className="border-t pt-4">
-                  <Button disabled className="w-full bg-gray-400">
-                    Inscrições Encerradas
-                  </Button>
-                </CardFooter>
-              </Card>
-
-              {/* Card 2 */}
-              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
-                <CardHeader className="bg-[#3b82f6] text-white rounded-t-lg">
-                  <CardTitle>Redes Neurais</CardTitle>
-                  <CardDescription className="text-gray-100">Conceitos e implementações</CardDescription>
-                </CardHeader>
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-2">
-                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>16/06 a 15/07</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 1: 08:00 às 12:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 2: 18:00 às 22:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Curso em andamento</span>
-                    </div>
-                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
-                      Explore o funcionamento das redes neurais e como implementá-las em projetos práticos.
-                    </p>
-                  </div>
-                </CardContent>
-                <CardFooter className="border-t pt-4">
-                  <Button disabled className="w-full bg-gray-400">
-                    Inscrições Encerradas
-                  </Button>
-                </CardFooter>
-              </Card>
-
-              {/* Card 3 */}
-              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
-                <CardHeader className="bg-[#dc2626] text-white rounded-t-lg">
-                  <CardTitle>Visão Computacional</CardTitle>
-                  <CardDescription className="text-gray-100">Técnicas e aplicações</CardDescription>
-                </CardHeader>
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-2">
-                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>21/07 a 15/08</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 1: 08:00 às 12:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 2: 18:00 às 22:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Inscrições Abertas</span>
-                    </div>
-                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
-                      Aprenda técnicas de processamento de imagens e visão computacional para projetos inovadores.
-                    </p>
-                  </div>
-                </CardContent>
-                <CardFooter className="border-t pt-4">
-                  <Button asChild className="w-full bg-[#1e3a8a] hover:bg-[#1e3a8a]/90">
-                    <Link
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSfIYCNt1K3o2yiaxvw3KjivwxpQACNNzJo0SRwUF_7ze9g_OA/viewform"
-                      target="_blank"
-                    >
-                      Inscreva-se
-                    </Link>
-                  </Button>
-                </CardFooter>
-              </Card>
               {/* Card 4 - Internet das Coisas (IoT) */}
               <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
                 <CardHeader className="bg-[#0ea5e9] text-white rounded-t-lg">
