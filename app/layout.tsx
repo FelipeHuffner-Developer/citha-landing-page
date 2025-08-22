@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cursos de IA - Projeto CITHA",
-  description: "Cursos gratuitos de Inteligência Artificial oferecidos pelo projeto CITHA em Tefé, Amazonas.",
-    generator: 'v0.dev'
+  title: "Projeto CITHA Campus Tefé",
+  description: "Capacitação e Interiorização de Tecnologias Habilitadoras na Amazônia",
+    generator: 'FelipeHuffner-Developer'
 }
 
 export default function RootLayout({
