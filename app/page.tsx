@@ -73,46 +73,6 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-              {/* Card 4 - Internet das Coisas (IoT) */}
-              <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
-                <CardHeader className="bg-[#0ea5e9] text-white rounded-t-lg">
-                  <CardTitle>Internet das Coisas (IoT)</CardTitle>
-                  <CardDescription className="text-gray-100">Conceitos e aplicações práticas</CardDescription>
-                </CardHeader>
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-2">
-                      <Calendar className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>25/08 a 23/09/2025</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 1: 08:00 às 12:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Turma 2: 18:00 às 22:00 hrs</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>Inscrições Abertas</span>
-                    </div>
-                    <p className="text-sm text-gray-500 mt-4 group-hover:text-gray-700 transition-colors">
-                      Descubra como conectar dispositivos e criar soluções inteligentes com Internet das Coisas.
-                    </p>
-                  </div>
-                </CardContent>
-                <CardFooter className="border-t pt-4">
-                  <Button asChild className="w-full bg-[#1e3a8a] hover:bg-[#1e3a8a]/90">
-                    <Link
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSfIYCNt1K3o2yiaxvw3KjivwxpQACNNzJo0SRwUF_7ze9g_OA/viewform"
-                      target="_blank"
-                    >
-                      Inscreva-se
-                    </Link>
-                  </Button>
-                </CardFooter>
-              </Card>
               {/* Card 5 - Realidade Virtual */}
               <Card className="w-full max-w-md mx-auto cursor-pointer hover:shadow-lg transition-shadow group">
                 <CardHeader className="bg-[#a21caf] text-white rounded-t-lg">
@@ -207,7 +167,7 @@ export default function Home() {
                 Inscrições Abertas
               </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                As inscrições para os cursos de Redes Neurais e Visão Computacional estão abertas!
+                As inscrições para os cursos de Realidade Virtual e Cibersegurança estão abertas!
               </p>
             </div>
             <div className="w-full max-w-sm space-y-2">
