@@ -83,7 +83,7 @@ export default function Home() {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-2">
                       <Calendar className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>29/09 a 24/10/2025</span>
+                      <span>06/10 a 04/11/2025</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Clock className="h-5 w-5 text-[#1e3a8a]" />
@@ -123,7 +123,7 @@ export default function Home() {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-2">
                       <Calendar className="h-5 w-5 text-[#1e3a8a]" />
-                      <span>29/10 a 02/12/2025</span>
+                      <span>10/11 a 12/12/2025</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Clock className="h-5 w-5 text-[#1e3a8a]" />
